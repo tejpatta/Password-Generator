@@ -6,9 +6,11 @@ This webpage was created in response to a  boot camp assignment to apply skills 
 
 This app runs in the browser, and features dynamically updated HTML powered by JavaScript.
 
-The webpage asks for user input through 'confirms' and generates a random password based on their choices. The user can elect to have lower case characters, upper case characters, special characters, and numerals in their password. They must choose at least one. They will then receive their password.
+The webpage asks for user input through 'confirms' and generates a random password based on their choices. The user can elect to have lowercase characters, uppercase characters, special characters, and numerals in their password. They must choose at least one. They will then receive their password.
 
 If a user does not confirm at least one type of character, the text box will tell them to try again:
+
+<img src ="./assets/notchosen.png">
 
 ## Installation
 
