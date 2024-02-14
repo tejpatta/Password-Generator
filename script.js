@@ -122,13 +122,13 @@ function getPasswordOptions() {
             passwordCh = passwordCh.concat(lowerCasedCharacters);
           }
       }
-    } while ((passwordLength < 8 || passwordLength > 128 || isNaN(passwordLength)) && passwordLength); //if user choses wrong lenght of the password or types anyting different than number, AND the prompt is true it enters the loop. 
+    } while ((passwordLength < 8 || passwordLength > 128 || isNaN(passwordLength)) && passwordLength); 
     return passwordCh;
   }
   
 
 // Function for getting a random element from an array
-function getRandom(arr) {
+function getRandomPass(arr) {
   var newPassword ="";
   var newChar;
   var p;
@@ -142,7 +142,14 @@ function getRandom(arr) {
 
 // Function to generate password with user input
 function generatePassword() {
-
+  var passwordOptions = getPasswordOptions();
+  var getPassword;
+  if (passwordOptions.length == 0){ //checks if the array is empty 
+    getPassword = "To generate a password please choose at least one type of characters. Try again by pressing the button!";
+  }else{
+    getPassword = getRandomPass(passwordOptions); // generates new password
+  }
+  return getPassword;
 }
 
 // Get references to the #generate element
@@ -152,7 +159,6 @@ var generateBtn = document.querySelector('#generate');
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector('#password');
-
   passwordText.value = password;
 }
 
