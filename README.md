@@ -8,7 +8,7 @@ This app runs in the browser, and features dynamically updated HTML powered by J
 
 The webpage asks for user input through 'confirms' and generates a random password based on their choices. The user can elect to have lower case characters, upper case characters, special characters, and numerals in their password. They must choose at least one. They will then receive their password.
 
-If a user does not confirm at least one type of character, the screen will tell them to try again:
+If a user does not confirm at least one type of character, the text box will tell them to try again:
 
 ## Installation
 
