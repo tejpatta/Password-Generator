@@ -17,7 +17,7 @@ If a user does not confirm at least one type of character, the text box will tel
 Accessible on Git Hub Pages at the link below in 'usage'.
 
 ## Usage
-The site can be accessed here: 
+The site can be accessed here: https://tejpatta.github.io/Password-Generator/
 
 Click the 'Generate Password' to begin. Input a number when asked for the length of password you'd like, and then click 'OK' for the following options if you want to include them, and 'Cancel' if you do not wish to include a particular character type. You must choose at least one character type to include. You will then see your randomly generated password in the text box! Copy it and use it wherever you'd like. 
 
