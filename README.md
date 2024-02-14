@@ -1,7 +1,7 @@
 # Password-Generator
 
 ## Description
-
+<img src ="./assets/Landingscr.png">
 This webpage was created in response to a  boot camp assignment to apply skills learnt in JavaScript, particularly array methods. 
 
 This app runs in the browser, and features dynamically updated HTML powered by JavaScript.
